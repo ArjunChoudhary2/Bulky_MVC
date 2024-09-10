@@ -21,7 +21,7 @@ namespace BulkyWeb.Controllers
         public IActionResult Create()
         {
             return View(new Category());
-        }
+        }  
         [HttpPost]
         public IActionResult Create(Category obj)
         {
