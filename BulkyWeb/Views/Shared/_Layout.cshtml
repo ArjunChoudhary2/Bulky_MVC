@@ -71,8 +71,7 @@
     <!-- jQuery (from CDN to avoid conflicts) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- DataTables JS (Make sure the version matches with CSS) -->
-    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    
 
     <!-- TinyMCE -->
     <script src="https://cdn.tiny.cloud/1/gyb1zx6pgtipxi6hjvp6locgr1imqf4rv0a7pn4wq41s9gv0/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
@@ -82,6 +81,12 @@
 
     <!-- Site-specific JS -->
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- DataTables JS (Make sure the version matches with CSS) -->
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+    <!--Sweet Alerts 2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Allow rendering of additional scripts in views -->
     @await RenderSectionAsync("Scripts", required: false)
