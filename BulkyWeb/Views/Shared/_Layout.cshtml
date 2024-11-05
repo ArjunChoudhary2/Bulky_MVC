@@ -57,9 +57,11 @@
                                 </ul>
                             </li>
                         }
-                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Customer" asp-controller="Cart" asp-action="Index"><i class="bi bi-cart"></i> (0)</a>
+                        </li>
                     </ul>
-                    <partial name="_LoginPartial"/>
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
@@ -81,7 +83,7 @@
     <!-- jQuery (from CDN to avoid conflicts) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    
+
 
     <!-- TinyMCE -->
     <script src="https://cdn.tiny.cloud/1/gyb1zx6pgtipxi6hjvp6locgr1imqf4rv0a7pn4wq41s9gv0/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
